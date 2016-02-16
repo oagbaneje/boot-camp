@@ -7,7 +7,7 @@ text = gets.chomp
 text.upcase!
 characters = text.split("")
 i = 0
-characters.each do |character|
+for j in characters
 	i += 1
-	puts "#{i} #{character}"
+	puts "#{i} #{j}"
 end
