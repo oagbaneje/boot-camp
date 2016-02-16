@@ -5,9 +5,8 @@ of a string.
 print "Input string: "
 text = gets.chomp
 text.upcase!
-characters = text.split("")
 i = 0
-for j in characters
+while i < text.length-1
 	i += 1
-	puts "#{i} #{j}"
+	puts "#{i} #{text[i]}"
 end
